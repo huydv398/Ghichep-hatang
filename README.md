@@ -1,7 +1,4 @@
 ## Server 
 
-### Internet
 1. [RAID](Server/storage/RAID.md)
-
-### Storage 
-
+2. [Cấu hình RAID cho server](conf-raid.md)
