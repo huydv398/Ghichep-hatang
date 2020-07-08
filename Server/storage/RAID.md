@@ -46,3 +46,26 @@ Là sự cải tiến của RAID 0 nhưng có thêm ít nhất một ổ cứng 
 RAID 5 thực hiện chia đều dữ liệu trên các ổ đĩa giống như RAID 0 nhưng với một cơ chế phức tạp hơn.
 
 Là dạng RAID mạnh mẽ nhất cho người dùng văn phòng và gia đình với 3 hoặc 5 ổ cứng riêng biệt. Dữ liệu và bản sao lưu được chia lên tất cả các ổ cứng. 
+
+RAID 5 vừa đảm bảo tốc độ có cải thiện, vừa giữ được tính an toàn cao. Dung lượng đĩa cứng: nếu bạn dùng 3 ổ 100GB thì dung lượng cuối dùng là 200GB
+
+RAID 5 cần ít nhất 3 ổ cứng
+
+#### RAID 6
+
+![Imgur](https://i.imgur.com/zkGksag.png)
+
+Một phần giống RAID 5 nhưng lại được sử dụng lặp lại nhiều hơn số lần sự phân tách dữ liệu vào các đĩa cứng khác nhau. Ví dụ RAID 5 thì mỗi lần phân tách thành hai vị trí lưu trữ trên 2 đĩa cứng lưu trữ khác nhau nhưng RAID 6  thì mỗi dữ liệu lưu ở 3 vị trí trở lên
+
+RAID 6 yêu cầu ít nhất 4 ổ cứng
+
+Khả năng chịu rủi ro cao. nếu 4 ổ cứng thì cho phép hỏng 2 ổ cứng máy vẫn hoạt động bình thường.
+
+### Cần gì để chạy RAID?
+
+Để chạy RAID, bạn cần 1 card RAID điều khiển và 2 ổ cứng có dung lượng giống nhau. 
+
+Xác định kiểu RAID muốn sử dụng
+
+Bộ điều khiển RAID (RAID Controller) là nơi tập chung các cáp dữ liệu kết nối các đĩa cứng trong hệ thống RAID và nó được xử lý toàn bộ dữ liệu đi qua nó. Bộ điều khiển này có nhiều dạng khác nhau, từ Card tách rời cho đến chip tích hợp.
+
