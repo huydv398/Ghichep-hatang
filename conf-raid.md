@@ -1,4 +1,4 @@
-# Cấu hình các mode RAID cho server.
+# Cấu hình các mode RAID cho server Dell r630.
 ## Cấu hình RAID 0
 ### Cấu hình RAID O (2 DISK)
 ![Imgur](https://i.imgur.com/5Qvcsiz.png)
@@ -14,9 +14,6 @@ Nhấn **Ctrl** + **R**
 Xóa cấu hình cũ Chọn:
 * Nhấn **F2**  chọn **Clear Config** 
 
-### Cấu hình RAID 0 2 DISK Add 2 Disk
-
-![Imgur](https://i.imgur.com/CWfn0r6.png)
 
 ### Cấu hình RAID O (3 DISK)
 ![Imgur](https://i.imgur.com/l9y6G3d.png)
@@ -149,9 +146,9 @@ Khi RAID 5 đã Add 1 disk mà do không sử dụng hết tài nguyên muốn t
 
 ## Cấu hình RAID 6 
 ![Imgur](https://i.imgur.com/zkGksag.png)
-### Cấu hình RAID 6 add 1 disk
 
 ## CÀI HỆ ĐIỀU HÀNH CHO SERVER 
+
 ### SERVER DELL R630
 Để cài hệ điều hành CentOS-7
 
